@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> GMM website</title>
+
+  <!-- Fonts and Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lato:300,400,700' />
+
+  <!-- Smooth Load Transition -->
+  <script>
+    window.addEventListener("load", () => {
+      document.body.classList.add("loaded");
+    });
+  </script>
+</head>
+
+<body>
+  <!-- Main Content -->
+  <main>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about-container">
+        <!-- Profile photo -->
+        <img 
+          src="assets/profile_pic.png" 
+          alt="Main Photo" 
+          id="profile-photo"
+        />
+        <!-- About content -->
+        <div class="about-content">
+          <!-- Header and navigation -->
+          <header>
+            <nav>
+              <ul>
+                <li><a href="#working_papers">Working papers</a></li>
+                <li><a href="#work_in_progress">Work in progress</a></li>
+                <li><a href="assets/cv.pdf" download="Guillermo_Martinez_CV">CV</a></li>
+              </ul>
+            </nav>
+          </header>
+          <!-- Main content -->
+          <p class="justified">
+            Hello! I'm <b>Guillermo Martínez</b>, a PhD student in Economics at <a href="https://www.cemfi.es" target="_blank">Cemfi</a>. I work on applied microeconomics, with a focus on the economics of health and education. [CHANGE]
+            <br>
+            <br>
+            My research interests include the impact of pollution on educational outcomes, the role of information in illegal drug markets, and the effects of alert and control policies on illegal drug consumption and supply. [CHANGE]
+            <br>
+            <br>
+            I'm also a recepient of the <a href="https://www.fundacionareces.es/fundacionareces/es/tesis/el-rol-de-la-informacion-en-los-mercados-de-drogas-efectos-de-las-politicas-de-alerta-y-control-en-el-consumo-y-oferta-ilegal-en-los-paises-bajos.html?idConvocatoria=3070&idAmbito=3" target="_blank">Ramón Areces Foundation</a> grant.
+            <br>
+            <br>
+            Email: <em>guillermo.martinez /at/ cemfi /dot/ edu /dot/ es</em>
+            <br>
+            Address: C/ Casado del Alisal, 5, 28014 Madrid, Spain
+            <br>
+            Social: 
+            <a href="https://x.com/guille_mnz" target="_blank">X</a>
+            <!-- <a href="https://twitter.com/yourprofile" target="_blank">Github</a> -->
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Working Papers Section -->
+    <section id="working_papers">
+      <div class="working-papers-container">
+        <h2>Working papers</h2>
+
+        <!-- Parenting RCT paper -->
+        <div class="paper-item" onclick="window.location.href='#work_in_progress'">
+          <div class="paper-content">
+            <h3>Parents education on parental outcomes</h3>
+            <p><em>(R&R at SERIEs)</em></p>
+            <p><strong>with <a href="#">Ana e Inés</a></strong></p>
+          </div>
+          <div class="paper-image">
+            <img src="assets/mock_pic.jpg" alt="Graph 1">
+          </div>
+        </div>
+
+        <!-- Coming soon -->
+      
+      </div>
+    </section>
+
+    <!-- Work in Progress Section -->
+    <section id="work_in_progress">
+      <div class="work-in-progress-container">
+        <h2>Work in progress</h2>
+
+        <!-- Netherlands drugs paper -->
+        <div class="paper-item" onclick="window.location.href='#work_in_progress'">
+          <div class="paper-content">
+            <h3>The role of information in illegal drug markets</h3>
+            <p><em>otro</em></p>
+            <p><strong>with <a href="#">Yo</a></strong></p>
+          </div>
+          <div class="paper-image">
+            <img src="assets/mock_pic.jpg" alt="Graph 2">
+          </div>
+        </div>
+
+        <!-- Madrid pollution paper -->
+        <div class="paper-item" onclick="window.location.href='#work_in_progress'">
+          <div class="paper-content">
+            <h3>The impact of pollution on educational outcomes:</h3>
+            <p><em>otro</em></p>
+            <p><strong>with <a href="#">Micole and Javier</a></strong></p>
+          </div>
+          <div class="paper-image">
+            <img src="assets/mock_pic.jpg" alt="Graph 3">
+          </div>
+        </div>
+
+        <!-- Coming soon -->
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- JavaScript -->
+  <!-- <script src="script.js"></script> -->
+
+</body>
+
+</html>
