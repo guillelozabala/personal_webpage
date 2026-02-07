@@ -181,8 +181,8 @@ section {
 }
 
 .paper-image img {
-  width: 25vw;
-  height: 20vw;
+  width: clamp(320px, 25vw, 420px);  /* min / preferred / max */
+  height: auto;
   object-fit: cover;
   border-radius: 0;
   display: block;
