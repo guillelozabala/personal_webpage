@@ -73,7 +73,7 @@ nav li {
   min-width: auto;      /* change this */
   padding: 0 clamp(2px, 0.6vw, 8px);
   white-space: nowrap;  /* prevent line breaks */
-  background-color: #f4f4f4;
+  background-color: #f4f4f9;
   margin: 0;
 }
 
